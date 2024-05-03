@@ -9,7 +9,7 @@
     "start": "node app.js --openssl-legacy-provider",
     "test": "jest",
     "eslint": "eslint .",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production --openssl-legacy-provider",
     "test:e2e": "npx cypress run"
   },
   "repository": {
@@ -56,5 +56,4 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0"
   }
-  
 }
