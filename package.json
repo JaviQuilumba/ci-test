@@ -9,7 +9,7 @@
     "start": "node app.js --openssl-legacy-provider",
     "test": "jest",
     "eslint": "eslint .",
-    "build": "webpack --mode production --openssl-legacy-provider",
+    "build": "webpack --mode production",
     "test:e2e": "npx cypress run"
   },
   "repository": {
@@ -47,7 +47,7 @@
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.3"
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "axios": "^0.19.2",
